@@ -9,6 +9,7 @@ class StaticPagesController < ApplicationController
   end
 
   def page3
+    @text = ['qwerty', 'hello', 'Hew Year', 'Jack Sparrow', 'Pikachu']
   end
 
   def page4
